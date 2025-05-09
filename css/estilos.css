@@ -1,0 +1,138 @@
+/*Aplicando reglas universales*/
+*{
+    margin: 200;
+    padding: 20;
+    box-sizing: border-box;
+}
+
+/*Estilos generales del sitio*/
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(134, 197, 198);
+    color: black;
+}
+
+/*Definir el estilo del encabezado*/
+header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+/*Estilo de logo*/
+.logo{
+    width: 150px
+}
+
+/*Estilo de img equipo*/
+.equipo{
+    width: 500px;
+}
+
+.servicio1{
+    width: 300px;
+}
+
+.servicio2{
+    width: 300px;
+}
+
+.tarjeta img{
+    width: 100px;
+}
+
+
+/*Estilo del navegador*/
+nav ul{
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+/*Estilo de los items de las listas*/
+nav ul li{
+    margin: 0 35px;
+}
+
+/*Estilos a los enlaces del navegador*/
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*Estilos al poner el mouse encima de algun enlace del navegador*/
+nav ul li a:hover{
+    text-decoration: underline;
+    color: rgb(70, 84, 190);
+}
+
+/*Estilo al area principal*/
+main{
+    padding: 30px;
+    text-align: center;
+}
+
+/*Estilo a la seccion*/
+section{
+    margin-bottom: 40px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgb(0, 0, 0, 1);    /*esto sirve para darle sombreado, es decir darle sentido de prfundidad*/
+}
+
+/*Estilo de pie de pagina*/
+footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/*Estilo de img*/
+img{
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+ /*Estilos de las tarjetas de servicio*/
+ .tarjetas{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ }
+
+ /*Estilos a cada tarjeta*/
+ .tarjeta{
+    background-color: rgb(200, 248, 246);
+    padding: 20px;
+    border: 2px solid rgb(136, 163, 237);
+    border-radius: 10px;
+    width: 30%;
+    margin: 10px;
+    box-shadow: 0px 2px 4px rgb(0, 0, 0, 1);
+ }
+
+ .boton-volver {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+  }
+  
+  .boton-volver:hover {
+    background-color: lightcoral; 
+    color: #fff;
+  }
+  
